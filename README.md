@@ -21,4 +21,10 @@ Debes dar un nombre a tu proyecto, y llenar los datos que te piden. Dar permisos
 
 Además asegurate de guardar bien los tokens, API secrets, client IDS, todos los secretos que se generen ya que los necesitaras para el archivo config.ini
 
+### Resultado
 
+Al ejecutar el comando ***.\tw-sentiment.py*** en la terminal, el programa procede a anlizar el último tweet  de tu feed de alguien que sigues e imprime algo así
+
+![image](https://user-images.githubusercontent.com/45043430/200389809-0308a9fe-e338-4063-9099-093c31915914.png)
+
+Denota cual fue la emoción que más predominó en ese tweet (la de mayor porcentaje, en este caso neutral). Funciona con tweets tanto en inglés como en español, también entiende emojis.
