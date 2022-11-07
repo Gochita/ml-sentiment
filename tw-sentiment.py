@@ -23,7 +23,6 @@ public_tweets = api.home_timeline()
 
 tweet= public_tweets[0].text
 print('Latest tweet: '+ tweet)
-print(tweet)
 
 # tweet = "@MehranShakarami today's cold @ home 😒 https://mehranshakarami.com"
 # tweet = 'amo los dias soleados! 😉'
