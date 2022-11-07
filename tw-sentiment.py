@@ -19,17 +19,16 @@ auth.set_access_token(access_token, access_token_secret)
 
 api = tweepy.API(auth)
 
-# public_tweets = api.home_timeline()
+public_tweets = api.home_timeline()
 
-# tweet= public_tweets[0].text
-# print('Latest tweet: '+ tweet)
-# print(tweet)
+tweet= public_tweets[0].text
+print('Latest tweet: '+ tweet)
+print(tweet)
 
 # tweet = "@MehranShakarami today's cold @ home 😒 https://mehranshakarami.com"
 # tweet = 'amo los dias soleados! 😉'
 # tweet = 'I do not know what to do'
-tweet = 'Nadie: Yo: y si me asoleo el ano? 🤔'
-print(tweet)
+
 
 # precprcess tweet
 tweet_words = []
