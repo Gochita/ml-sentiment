@@ -28,3 +28,8 @@ Al ejecutar el comando ***.\tw-sentiment.py*** en la terminal, el programa proce
 ![image](https://user-images.githubusercontent.com/45043430/200389809-0308a9fe-e338-4063-9099-093c31915914.png)
 
 Denota cual fue la emoción que más predominó en ese tweet (la de mayor porcentaje, en este caso neutral). Funciona con tweets tanto en inglés como en español, también entiende emojis.
+
+## Roberta by Huggin face model
+[Roberta](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment?text=I+like+you.+I+love+you)
+
+
